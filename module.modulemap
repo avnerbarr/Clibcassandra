@@ -1,0 +1,5 @@
+module Clibcassandra [system] {
+  header "/usr/local/include/cassandra.h"
+  link "cassandra-static"
+  export *
+}
