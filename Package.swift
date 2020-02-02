@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Clibcassandra",
-    pkgConfig: "libcassandra",
+    pkgConfig: "cassandra",
     products: [.library(name: "Clibcassandra", targets: ["Clibcassandra"])],
     targets: [.target(name: "Clibcassandra", dependencies: [])]
 )
